@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fixed Position</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .container {
+            background-color: black;
+            height: 200px;
+            width: 700px;
+            border: 5px solid aqua;
+            margin: auto;
+            padding: 0px 10px;
+            position: relative;
+        }
+
+        p {
+            color: white;
+        }
+
+        .box {
+            background-color: blue;
+            color: white;
+            height: 60px;
+            width: 50px;
+            position: absolute;
+            top:0px;
+
+
+        }
+
+        .box1 {
+            background-color: rgb(252, 19, 19);
+            color: white;
+            height: 60px;
+            width: 50px;
+            position:fixed;
+            bottom:0px;
+            left: 0px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores fugit eius labore aperiam consequuntur
+            vero et deleniti adipisci voluptas reiciendis, natus eveniet unde perspiciatis ab expedita dolorum animi quo
+            vel quibusdam quis dolores. Itaque et, eligendi optio placeat accusantium quo sed aliquid minus nemo?</p>
+        <div class="box">
+            like
+        </div>
+        <div class="box1">Subscribe
+        </div>
+
+    </div>
+</body>
+
+</html>
